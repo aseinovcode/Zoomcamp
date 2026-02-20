@@ -4,6 +4,7 @@ __pycache__/
 *$py.class
 *.parquet
 service-account.json
+.env_encoded
 # C extensions
 *.so
 
