@@ -3,7 +3,7 @@ __pycache__/
 *.py[codz]
 *$py.class
 *.parquet
-
+service-account.json
 # C extensions
 *.so
 
@@ -206,3 +206,4 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+service-account.json
