@@ -9,6 +9,6 @@ trips_unioned as (
     select * from green_tripdata
     union all
     select * from yellow_tripdata
-),
+)
 
-    select * from trips_unioned limit 100
+    select distinct vendor_id from trips_unioned 
